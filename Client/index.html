@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic CRUD App</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/UpdateForm.css">
+    <link rel="stylesheet" href="css/add_remove.css">
+    <link rel="stylesheet" href="css/iPhoneX.css">
+    
+</head>
+<body>
+
+   <div class="banner">
+          <h1>Comic CRUD App</h1>
+   </div>
+
+   <div class="container">
+   <div class="buttons">
+   <button class="add" name="add">Add</button>
+   <button class="delete" name="delete">Delete</button>
+   <button class="update" name="update">Update</button>
+   </div>
+
+   <form class="search">
+        <label for='searchText'>Search:</label>
+        <input type="text" name="searchText">
+        <select name="criteria">
+          <option value="Title">Title</option>
+          <option value="Year">Year</option>
+        </select>
+        <button class = 'searchSubmit'>Go</button>
+   </form>
+   </div>
+   
+   <div class='ud'>
+     <form class="udFields"> 
+     <label for="title">Title:</label>
+     <input type="text" name="title">
+     <label for="issue">Issue:</label>
+     <input type="text" name="issue">
+     <label for="year">Year:</label>
+     <input type="text" name="year">
+     <label for="price">Price:</label>
+     <input type="text" name="price">
+     </form>   
+     <div class = 'udbuttons'>
+     <button class = 'cancel'>Cancel</button>  
+     <button class = 'udSubmit'>Submit</button>
+     <button class = 'remove'>Submit</button>  
+    </div>
+   </div>
+
+   <div class='updateForm'>
+    <form class="previousFields"> 
+    <label for="title">Title:</label>
+    <input type="text" name="title">
+    <label for="issue">Issue:</label>
+    <input type="text" name="issue">
+    <label for="year">Year:</label>
+    <input type="text" name="year">
+    <label for="price">Price:</label>
+    <input type="text" name="price">
+    </form>  
+
+    <label>Updated Information</label>
+    
+    <form class="updateFields">
+    <label for="updatetitle">Title:</label>
+    <input type="text" name="updatetitle">
+    <label for="updateissue">Issue:</label>
+    <input type="text" name="updateissue">
+    <label for="updateyear">Year:</label>
+    <input type="text" name="updateyear">
+    <label for="updateprice">Price:</label>
+    <input type="text" name="updateprice"> 
+    </form>    
+
+    <div >
+      <button class = 'cancelUpdate'>Cancel</button>
+      <button class = 'updateSubmit'>Submit</button>
+    </div> 
+  </div>
+
+   <div class = 'display'>
+    <form class = 'sorts'> 
+    <select class="sort" name="sorting" id='sorting'>
+      <option >Title A-Z</option>
+      <option >Title Z-A</option>
+      <option>Year Low-High</option>
+      <option>Year High-Low</option>
+      <option>Prices Low-High</option>
+      <option>Prices High-Low</option>
+    </select>
+    
+    </form>
+   <div class= 'labels'>
+      <p class="title">Title</p>
+      <p class="issue">Issue</p>
+      <p class="year">Year</p>
+      <p class="price">Price</p>
+   </div>
+   </div>
+
+ <div class="roots" id = "roots"></div>
+   
+   <script src="js/client.js"></script>
+   <script src="js/sort.js"></script>
+   <script src="js/add.js"></script>
+   <script src="js/remove.js"></script>
+   <script src="js/update.js"></script>
+   <script src="js/onload.js"></script>
+   <script src="js/search.js"></script>
+   
+</body>
+</html>

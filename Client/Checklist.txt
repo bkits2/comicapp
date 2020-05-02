@@ -1,0 +1,26 @@
+HTML/CSS
+[X] Create a banner in index
+[X] Create a label, textfield, and submit button for searching the db.
+[X] Create a table of sorts to display all comics.
+[x] Create a dropdown for sorting
+[X] Create an add button
+[X] Create a remove button
+[X] Create an update button
+[X] Add a background image? (Went with color instead)
+
+[X] Send a response to the back end
+[X] Bring in the response to the back end.
+[X] For searching, search the db and send a respone.
+[x] For adding, updating, or removing do so to the db and send a respone.
+[x] recieve response on the front end for all.
+[X] add labels for table
+[x] Update the table to show new changes.
+[x] fix css for iphone
+[] deploy
+
+tips
+npm run dev to start the server.
+server runs on http://localhost:5000
+https://comic-gules.now.sh backend
+
+front end https://comic.bkits2.now.sh/

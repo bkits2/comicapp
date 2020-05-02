@@ -1,0 +1,134 @@
+body{
+    background: rgb(151, 145, 145); 
+    margin: 0 auto;
+}
+
+.banner{   
+    height: 100%;
+    max-width: 100%;
+    border-bottom: 3px solid black;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(35, 134, 5) 49%, rgba(5,0,0,1) 100%);   
+}
+
+.banner h1{    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;  
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: left;
+}
+
+.buttons{
+    display: flex;       
+    align-content: left;
+    margin-right: 84%;
+    margin-left: -49%;
+}
+
+button{
+    background: rgb(9, 107, 17);
+    color: white;
+    margin-top: 12px;   
+    border-radius: 10px; 
+}
+
+button:hover{
+    background: lime;
+    border: none;
+}
+
+.search{
+    display: flex;
+    font-size: 25px; 
+}
+
+.search label{
+    padding-top: 9px;
+    padding-right: 10px;
+}
+
+.search  input[type=text]{
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+
+.search select{
+    background: rgb(9, 107, 17);
+    color: white;
+    margin-top: 12px;   
+    border-radius: 10px;  
+    cursor: pointer;
+}
+
+.search input[type=submit]{    
+    background: rgb(9, 107, 17);
+    color: white;
+    margin-top: 12px;   
+    border-radius: 10px;    
+}
+
+.search input[type=submit]:hover{
+    background: lime;
+    border: none;
+}
+
+.display{
+    margin-top: 9%; 
+    margin-bottom: -2%;;
+    display: flex;
+    flex-direction: row;   
+ }
+
+.labels{
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    font-size: x-large;
+    background-color:rgb(9, 107, 17);
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    color: white;
+} 
+ 
+.title{
+    padding-right: 508px;
+}
+
+.issue{
+    padding-right: 42px;
+}
+
+.year{
+    padding-right: 77px;
+}
+
+.price{
+    padding-right: 204px;
+}
+
+ .sort{
+    margin-left: 10%;
+    background: rgb(9, 107, 17);
+    color: white;  
+    border-radius: 10px;  
+    cursor: pointer;
+ }
+ 
+ .roots{
+     width: 10%;
+    margin-top: 1px; 
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap; 
+    font-size: x-large;
+ } 
+
+
+

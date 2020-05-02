@@ -1,0 +1,35 @@
+.updateForm{
+    margin-top: 5%; 
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px; 
+    border: 5px solid black;
+}
+
+.previousFields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .updateFields{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+ }
+
+ .updateForm label{
+    margin-top: 20px;
+ }
+
+ .updateForm input[type=text]{
+    margin-top: 20px; 
+    margin-left: 10px;
+    margin-right: 10px;
+ }
+
